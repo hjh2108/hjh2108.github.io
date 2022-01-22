@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>天旅同尘</title>
+  
+  
+  <link href="http://hjh2108.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://hjh2108.github.io/"/>
+  <updated>2022-01-22T08:32:12.948Z</updated>
+  <id>http://hjh2108.github.io/</id>
+  
+  <author>
+    <name>天旅同尘</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://hjh2108.github.io/2022/01/22/hello-world/"/>
+    <id>http://hjh2108.github.io/2022/01/22/hello-world/</id>
+    <published>2022-01-22T08:32:12.948Z</published>
+    <updated>2022-01-22T08:32:12.948Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【2021最新版】Hexo博客搭建教程</title>
+    <link href="http://hjh2108.github.io/2021/11/13/%E3%80%902021%E6%9C%80%E6%96%B0%E7%89%88%E3%80%91Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
+    <id>http://hjh2108.github.io/2021/11/13/%E3%80%902021%E6%9C%80%E6%96%B0%E7%89%88%E3%80%91Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</id>
+    <published>2021-11-13T04:10:41.000Z</published>
+    <updated>2021-12-25T09:18:25.166Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><p>本文章教你利用hexo + GitHub Pages 免费搭建个人网站</p></blockquote><p>首先你需要准备一个win7或以上版本的系统的电脑。<br>并成功注册 GitHub 的账号。  </p><hr><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="VS-Code"><a href="#VS-Code" class="headerlink" title="VS Code"></a>VS Code</h3><p><a href="https://code.visualstudio.com/Download">VS Code</a> 是一个轻量级的编辑器，后期编写代码要用到的，当然，你自己有其他类似的编辑器也行</p><p>打开安装包，根据提示完成安装。安装目录随意。</p><p>附加任务部分全部勾选</p><p><img src="https://guguge.top/blog/hexoblogsetup/06.jpg"><br><img src="https://guguge.top/blog/hexoblogsetup/07.jpg"></p><p>安装完后发现是英文的，可以安装语言包<br><img src="https://guguge.top/blog/hexoblogsetup/08.jpg"></p><p>软件界面右下角会弹出提示框询问是否安装语言包，如果没有弹出，则需要手动安装。</p><p>点击左侧的应用图标，在弹出的搜索框内输入chinese，第一个就是语言包，点击install按钮安装就行。</p><p><img src="https://guguge.top/blog/hexoblogsetup/09.jpg"><br><img src="https://guguge.top/blog/hexoblogsetup/10.jpg"></p><p>安装完语言包会提示重新启动软件，软件重启后就变成中文咯</p><h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><p><a href="https://git-scm.com/download">Git</a><br>是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理</p><p>下载好后打开安装包一直按next就好了</p><p><img src="https://guguge.top/blog/hexoblogsetup/02.jpg"><br><img src="https://guguge.top/blog/hexoblogsetup/03.jpg"></p><h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p><a href="https://nodejs.org/en/download/">Node.js</a> 让JavaScript成为与PHP、Python、Perl、Ruby等服务端语言平起平坐的脚本语言。</p><p>打开安装包勾选 I accept 后一直按 Next 直到安装完成.</p><p><img src="https://guguge.top/blog/hexoblogsetup/04.jpg"><br><img src="https://guguge.top/blog/hexoblogsetup/05.jpg"></p><h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h3><p>Hexo下载：打开CMD输入 npm install hexo-cli -g</p><h3 id="验证是否安装成功"><a href="#验证是否安装成功" class="headerlink" title="验证是否安装成功"></a>验证是否安装成功</h3><p>运行CMD以此输入</p><ul><li>node -v<br><img src="https://website2108.github.io/2021/111328638/1.png"></li></ul><p>npm -v<br><img src="https://website2108.github.io/2021/111328638/2.png"></p><p>git –version<br><img src="https://website2108.github.io/2021/111328638/3.png"></p><p>hexo -v<br><img src="https://website2108.github.io/2021/111328638/4.png"></p><blockquote><p>出现了版本号就表示安装成功，没有就重新执行一遍命令</p></blockquote><hr><h2 id="搭建GitHub仓库"><a href="#搭建GitHub仓库" class="headerlink" title="搭建GitHub仓库"></a>搭建GitHub仓库</h2><blockquote><p>GitHub账号注册文章：<a href="https://www.bilibili.com/read/cv5107169/">https://www.bilibili.com/read/cv5107169/</a></p></blockquote><p>点击右下角头像旁边的加号。选择 New Repository 新建仓库</p><p><img src="https://guguge.top/blog/hexoblogsetup/32.jpg"></p><blockquote><p>如果作为网站使用，仓库名称格式必须为：你的Github用户名.github.io</p></blockquote><p><img src="https://guguge.top/blog/hexoblogsetup/33.jpg"></p><blockquote><p>选择Public。再点击Create Repository 按钮完成创建<br>这里建议把 Add a README file 给勾上</p></blockquote><p><img src="https://guguge.top/blog/hexoblogsetup/34.jpg"></p><hr><h2 id="将github仓库与本地绑定"><a href="#将github仓库与本地绑定" class="headerlink" title="将github仓库与本地绑定"></a>将github仓库与本地绑定</h2><blockquote><p>这一步的用处是将GitHub与本地进行绑定</p></blockquote><p>随便进入一个文件夹，右键打开 Git Bash Here<br><img src="https://website2108.github.io/2021/111328638/5.png"></p><p>进入git页面后，输入 ssh 来验证有没有装ssh，一般在安装git的时候默认是安装好了的。<br><img src="https://website2108.github.io/2021/111328638/6.png"></p><p>然后我们需要在本地生成SSH密钥</p><blockquote><p>生成ssh：ssh-keygen -t rsa -C “邮件地址”<br>“邮件地址”输入的是你注册GitHub时候的邮箱,千万不要输错了！！！<br>如果要粘贴的话，不是 Ctrl+V ，要右键点击 Paste 粘贴</p></blockquote><p><img src="https://website2108.github.io/2021/111328638/7.png"></p><p>一共需要按4次回车</p><p><img src="https://website2108.github.io/2021/111328638/8.png"></p><p>直到出现这个之后就行了<br><img src="https://website2108.github.io/2021/111328638/9.png"></p><p>生成后如何查看SSH呢？</p><p>默认路径在 C:\user\你的用户名.ssh\id_rsa.pub 文件里<br><img src="https://website2108.github.io/2021/111328638/11.png"></p><blockquote><p>注意！是 .pub 文件里的不是其他的！</p></blockquote><p>打开后 Ctrl + A , Ctrl + c 复制</p><p>打开Github官网，并登录账号。点击网站右上角你的头像，然后选择Settings。<br><img src="https://guguge.top/blog/hexoblogsetup/14.jpg"></p><p>选择 SSH and GPG keys ,点击 New SSH key<br><img src="https://guguge.top/blog/hexoblogsetup/15.jpg"></p><p>把之前在已 id_rsa.pub 文件里面复制的内容粘贴进去。并点击Add SSH Key。<br>可能会弹出窗口要求输入Github密码进行身份验证。<br><img src="https://guguge.top/blog/hexoblogsetup/16.jpg"></p><blockquote><p>测试ssh是否绑定成功：ssh -T <a href="mailto:&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#99;&#111;&#x6d;">&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#99;&#111;&#x6d;</a> ,出现你的用户名表示成功了。<br><img src="https://website2108.github.io/2021/111328638/10.png"></p></blockquote><hr><h2 id="本地生成博客源码"><a href="#本地生成博客源码" class="headerlink" title="本地生成博客源码"></a>本地生成博客源码</h2><blockquote><p>建议将源码导入到自己的Github账号上。方便跨平台管理，可以在不同设备进行配置。<br>如果你只有一台电脑，也不在其他设备上同步编辑。可以直接下载源码</p></blockquote><h3 id="下载源码"><a href="#下载源码" class="headerlink" title="下载源码"></a>下载源码</h3><ul><li>打开或创建想要保存hexo的文件夹，在里面打开 Git Bash Here 窗口<br>初始化hexo</li></ul><blockquote><p>hexo init</p></blockquote><p>运行成功后会出现标志性的一段话 Start blogging with Hexo!<br><img src="https://website2108.github.io/2021/111328638/12.png"><br>运行完之后你会发现目录下多了几个文件，那就是hexo的源码<br><img src="https://website2108.github.io/2021/111328638/13.png"></p><ul><li>博客美化视频 <a href="https://b23.tv/hgmt1sV">https://b23.tv/hgmt1sV</a></li></ul><h3 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h3><p>输入 hexo s 静态生成本地的hexo页面<br><img src="https://website2108.github.io/2021/111328638/14.png"><br>出现这个后选择 <a href="http://localhost:4000/">http://localhost:4000/</a> 右键选择Copy在浏览器输入后就可以看到我们的成果了<br><img src="https://website2108.github.io/2021/111328638/15.png"><br>以后写文章也可以边写边在浏览器上实时预览，提高效率</p><hr><h2 id="发布博客到互联网"><a href="#发布博客到互联网" class="headerlink" title="发布博客到互联网"></a>发布博客到互联网</h2><blockquote><p>大家可能注意到了，我的标题上写着“2021最新版”，这并不是我乱取的，而是github更新了，有两个重要的更新影响到了教学，所以网上大神分享到18，19版的很多都不能用了，具体是哪两个更新，我们后面再说。</p></blockquote><h3 id="编辑源码"><a href="#编辑源码" class="headerlink" title="编辑源码"></a>编辑源码</h3><p>打开博客根目录，打开 _config.yml 文件，拉到最后面，把 deploy 以下的全删除了，替换成</p><blockquote><p>deploy:<br>  type:<br>  repository:<br>  branch: </p></blockquote><blockquote><p>注意！所有数值的冒号后面有一个空格的。<br> <img src="https://website2108.github.io/2021/111328638/16.png"><br>type填写git，branch填写main(这也是第一处更新，把分支改成了main)<br><img src="https://website2108.github.io/2021/111328638/17.png"><br>至于 repository ，需要先打开GitHub仓库，复制Code选项里的HTTPS。<br><img src="https://website2108.github.io/2021/111328638/18.png"></p></blockquote><h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><p>在博客文件夹打开 Git Bash Here 窗口，安装hexo-deployer-git自动部署发布工具，命令如下。</p><blockquote><p>npm install hexo-deployer-git –save</p></blockquote><p>然后在输入</p><blockquote><p>hexo g #生成页面文件<br>hexo d #部署到GitHub</p></blockquote><blockquote><p>输入了 hexo d 后，第一次可能会弹出输入界面，先不要关闭，打开GitHub，打开Settings，再打开Developer settings，选择Personal access tokens,点击generate new token,名字随便填，权限建议全部选上，然后点击generate token，就会出现一串序列号，把它记下或复制，粘贴到刚才的窗口上，就可以了。<br><img src="https://website2108.github.io/2021/111328638/22.png"><br><img src="https://website2108.github.io/2021/111328638/23.png"><br><img src="https://website2108.github.io/2021/111328638/24.png"><br><img src="https://website2108.github.io/2021/111328638/25.png"><br><img src="https://website2108.github.io/2021/111328638/26.png"></p></blockquote><blockquote><p>成功后可以看一下仓库的文件有没有变化，如果有就代表成功了，可以输入你的网址了，网址就是你的仓库名。 例如：https://你的用户名.github.io</p></blockquote><blockquote><p>Github Pages是支持页面自动更新的，后续如果上传了新内容，页面就会自动刷新，无需再设置<br>还可以绑定自定义域名，前提是需要购买一个域名。并解析到Github的服务器上</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;本文章教你利用hexo + GitHub Pages 免费搭建个人网站&lt;/p&gt;
+&lt;/blockquote</summary>
+      
+    
+    
+    
+    
+    <category term="web" scheme="http://hjh2108.github.io/tags/web/"/>
+    
+  </entry>
+  
+</feed>
